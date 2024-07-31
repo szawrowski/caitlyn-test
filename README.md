@@ -55,7 +55,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 list(APPEND CMAKE_PREFIX_PATH "${CMAKE_SOURCE_DIR}/external/caitlyn-test")
 
 # Find and include the Caitlyn package configuration
-find_package(Caitlyn CONFIG REQUIRED)
+find_package(CaitlynTest CONFIG REQUIRED)
 
 # Create an executable target from main.cpp
 add_executable(${PROJECT_NAME} main.cpp)
